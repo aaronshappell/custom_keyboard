@@ -1,4 +1,4 @@
-/* Copyright 2018 REPLACE_WITH_YOUR_NAME
+/* Copyright 2018 Aaron Shappell
  *
  * This program is free software: you can redistribute it and/or modify
  * it under the terms of the GNU General Public License as published by
@@ -23,12 +23,20 @@
 // The first section contains all of the arguments
 // The second converts the arguments into a two-dimensional array
 #define LAYOUT( \
-    k00, k01, k02, \
-      k10,  k11   \
+    k00, k01, k02, k03, k04, k05, k06, k07, k08, k09, k010, k011, k012, k013, k014, k015 \
+    k10, k11, k12, k13, k14, k15, k16, k17, k18, k19, k110, k111, k112,    k113,    k114 \
+      k20, k21, k22, k23, k24, k25, k26, k27, k28, k29, k210, k211, k212,   k213,   k214 \
+       k30,  k31, k32, k33, k34, k35, k36, k37, k38, k39, k310, k311,     k312,     k313 \
+        k40,    k41, k42, k43, k44, k45, k46, k47, k48, k49, k410,    k411,   k412, k413 \
+     k50,  k51,  k52,               k53,              k54,  k55,  k56,  k57,  k58,  k59  \
 ) \
 { \
-    { k00, k01,   k02 }, \
-    { k10, KC_NO, k11 }, \
+    { k00, k01, k02, k03,   k04,   k05, k06,   k07,   k08,   k09, k010, k011, k012,  k013,  k014, k015 }, \
+    { k10, k11, k12, k13,   k14,   k15, k16,   k17,   k18,   k19, k110, k111, k112,  KC_NO, k113, k114 }, \
+    { k20, k21, k22, k23,   k24,   k25, k26,   k27,   k28,   k29, k210, k211, k212,  KC_NO, k213, k214 }, \
+    { k30, k31, k32, k33,   k34,   k35, k36,   k37,   k38,   k39, k310, k311, KC_NO, KC_NO, k312, k313 }, \
+    { k40, k41, k42, k43,   k44,   k45, k46,   k47,   k48,   k49, k410, k411, KC_NO, KC_NO, k412, k413 }, \
+    { k50, k51, k52, KC_NO, KC_NO, k53, KC_NO, KC_NO, KC_NO, k54, k55,  k56,  KC_NO, k57,   k58,  k59  }, \
 }
 
 #endif
