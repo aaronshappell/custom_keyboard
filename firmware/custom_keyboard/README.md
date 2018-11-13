@@ -2,14 +2,14 @@
 
 ![custom_keyboard](imgur.com image replace me!)
 
-A custom tenkeyless keyboard designed and made for my personal use made public in this repo for anyone interested.
+A short description of the keyboard/project
 
-Keyboard Maintainer: [Aaron Shappell](https://github.com/aaronshappell)  
-Hardware Supported: Teensy 2.0  
-Hardware Availability: [custom_keyboard repo](https://github.com/aaronshappell/custom_keyboard/parts)
+Keyboard Maintainer: [You](https://github.com/yourusername)  
+Hardware Supported: The PCBs, controllers supported  
+Hardware Availability: links to where you can find this hardware
 
 Make example for this keyboard (after setting up your build environment):
 
     make custom_keyboard:default
 
-See [build environment setup](https://docs.qmk.fm/build_environment_setup.html) then the [make instructions](https://docs.qmk.fm/make_instructions.html) for more information.
+See the [build environment setup](https://docs.qmk.fm/#/getting_started_build_tools) and the [make instructions](https://docs.qmk.fm/#/getting_started_make_guide) for more information. Brand new to QMK? Start with our [Complete Newbs Guide](https://docs.qmk.fm/#/newbs).
