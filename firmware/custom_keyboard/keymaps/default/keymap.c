@@ -16,9 +16,9 @@
 #include QMK_KEYBOARD_H
 
 // Layers
-#define _BL 0;
-#define _GL 1;
-#define _FL 2;
+#define _BL 0
+#define _GL 1
+#define _FL 2
 
 const uint16_t PROGMEM keymaps[][MATRIX_ROWS][MATRIX_COLS] = {
 	// Base Layer
